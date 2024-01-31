@@ -1,0 +1,83 @@
+/* Cores de fundo */
+html {
+    background-color: #f5f5f5; /* Branco suave */
+  }
+  
+  body {
+    background-color: #fff; /* Branco */
+  }
+  
+  /* Cor principal */
+  .main-content {
+    background-color: #f7f1e6; /* Bege claro */
+  }
+  
+  /* Cores de destaque */
+  .titulo {
+    color: #e67e22; /* Laranja queimado */
+  }
+  
+  .preco {
+    color: #c0392b; /* Vermelho escuro */
+  }
+  
+  .botao {
+    background-color: #e67e22; /* Laranja queimado */
+    color: #fff; /* Branco */
+  }
+  
+  .botao:hover {
+    background-color: #c0392b; /* Vermelho escuro */
+  }
+  
+  /* Menu */
+  .menu {
+    background-color: #f7f1e6; /* Bege claro */
+  }
+  
+  .menu li a {
+    color: #666; /* Cinza escuro */
+  }
+  
+  .menu li a:hover {
+    background-color: #e67e22; /* Laranja queimado */
+    color: #fff; /* Branco */
+  }
+  
+  /* Formulário */
+  form {
+    background-color: #f7f1e6; /* Bege claro */
+    border: 1px solid #e67e22; /* Borda laranja queimado */
+  }
+  
+  input {
+    background-color: #fff; /* Branco */
+    color: #666; /* Cinza escuro */
+  }
+  
+  input:focus {
+    border: 1px solid #e67e22; /* Borda laranja queimado */
+  }
+  
+  /* Tabelas */
+  table {
+    border: 1px solid #e67e22; /* Borda laranja queimado */
+  }
+  
+  th, td {
+    color: #666; /* Cinza escuro */
+  }
+  
+  /* Outros elementos */
+  h2, h3, h4 {
+    color: #e67e22; /* Laranja queimado */
+  }
+  
+  p {
+    color: #666; /* Cinza escuro */
+  }
+  
+  .imagem-produto {
+    border: 1px solid #e67e22; /* Borda laranja queimado */
+  }
+  

@@ -1,0 +1,140 @@
+*{
+    font-family: 'Courier Prime', monospace;
+}
+html {
+    background-color: #b39d75; /* Cor de fundo geral mais amena */
+    color: #383838; /* Cor do texto principal mais escura */
+}
+
+.menu {
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin: 0;
+    padding: 0;
+    background-color: #d9a974; /* Cor de fundo do menu mais quente */
+    border-radius: 10px;
+}
+
+.menu li {
+    display: inline-block; /* Itens de menu ficam lado a lado */
+}
+
+.menu li a {
+    display: block; /* Links são elementos de bloco para ocuparem toda a largura disponível */
+    padding: 8px 16px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remove a decoração de texto padrão (sublinhado) */
+    color: #fff; /* Cor do texto dos links em branco para maior destaque */
+}
+
+.menu li a:hover {
+    background-color: #ad7b4b; /* Cor de fundo ao passar o mouse sobre os links mais escura */
+    color: #fff; /* Cor do texto ao passar o mouse sobre os links em branco para maior destaque */
+    border-radius: 10px;
+}
+
+.menuloja {
+    float: right;
+}
+
+/* DIV DO FORMULÁRIO */
+.formulario {
+    float: left;
+    margin-left: 10%;
+}
+
+.profile {
+    float: right;
+    margin: 7px 5px 0 0;
+}
+
+/* PADRONIZAÇÃO DA TAG FORM */
+form {
+    background-color: #e1c9a4; /* Cor de fundo do formulário mais clara */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+}
+
+input {
+    background-color: #f0d8b7; /* Tom de bege claro para os campos de entrada */
+    border: none;
+    border-radius: 3px;
+    color: #000000; /* Cor do texto dentro dos campos de entrada mais escura */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="decimal"],
+input[type="date"],
+input[type="file"],
+textarea {
+    background-color: #e1c9a4; /* Cor de fundo dos campos de entrada mais clara */
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #000000; /* Cor do texto dentro dos campos de entrada mais escura */
+    resize: none;
+}
+
+/* ESTILO DAS TABELAS */
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: #57433d; /* Cor do texto nas tabelas mais escura */
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: #383838;
+}
+
+h1 {
+    color: #383838;
+}
+
+p {
+    color: #383838;
+}
+
+.caixaexclui {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+/* IMAGEM DO ALTERA PRODUTO */
+.imagem_atual {
+    float: right;
+    position: relative;
+    margin-top: 1.5%;
+    margin-right: 5%;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+/* FORM DO ALTERA PRODUTO */
+.visualizaproduto {
+    background-color: #e1c9a4; /* Cor de fundo do formulário mais clara */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    margin-left: 10px;
+    padding: 20px;
+    width: 500px;
+}
+
+.finalizabotao {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: smaller;
+    background-color: #ad7b4b; /* Cor mais escura para o botão */
+    color: #fff; /* Cor do texto no botão em branco para maior destaque */
+}
